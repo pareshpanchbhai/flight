@@ -1,0 +1,12 @@
+<suite name = "Flight  Testcases" >
+<test name = "Testcases For Registration">
+  <listners>
+    <listner class-name = "utilities.ExtentReporter"></listner>
+  </listners>
+<parameter name = "browser" value = "chrome"/>
+<classes>
+<class name = "testcases.TC_001_Flight"></class>
+</classes>
+</test>
+
+</suite>
