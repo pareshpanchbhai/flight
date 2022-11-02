@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Flight  Testcases]">
+  <test thread-count="5" name="Testcases For Registration(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testcases.TC_001_Flight">
+        <methods>
+          <include name="testResg"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.TC_001_Flight -->
+    </classes>
+  </test> <!-- Testcases For Registration(failed) -->
+</suite> <!-- Failed suite [Flight  Testcases] -->

@@ -1,0 +1,22 @@
+<suite name = "Opencart Testcases" Thread-count="2" parallel="tests">
+<test name = "Testcases For Registration">
+<parameter name = "browser" value = "chrome"/>
+<classes>
+<class name = "testcases.TC_001_Flight"></class>
+</classes>
+</test>
+
+<test name = "Edge">
+<parameter name = "browser" value = "edge"/>
+<classes>
+<class name = "testcases.TC_001_Flight"></class>
+</classes>
+</test>
+
+<test name = "Firefox">
+<parameter name = "browser" value = "firefox"/>
+<classes>
+<class name = "testcases.TC_001_Flight"></class>
+</classes>
+</test>
+</suite>
